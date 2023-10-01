@@ -1,7 +1,10 @@
 {
  "ip": "anarchy.6b6t.org",
- "username": "User",
- "password":"Password",
+  "accounts": [
+    { "username": "User1", "port": "3000" },
+    { "username": "User2", "port": "3000" }
+  ],
+ "password":"PasswordForAll",
  "version": "1.19.4",
  "port": "3000",
  "blacklist": ["User1", "User2"],
@@ -10,7 +13,7 @@
  "reconnectdelay": "5",
  "securityguard": true,
  "firstperson": false,
- "prismarineviewer":true,
+ "prismarineviewer":false,
  "websocketport":"8080",
  "killsuicide": false,
   "killaura":{
@@ -27,14 +30,14 @@
   },
 "chat":{
  "bypass": true,
- "bypasslimit":"10",
+ "bypasslimit":"20",
  "random": true,
  "delay": "5",
   "messages": [
-    "Imperials on top!!!! ",
-    "Imperials can never be defeated  ",
-    "Imperials have good bases ",
-    "Imperials forever, accused together "
+    "Test 1 ",
+    "Test 2  ",
+    "Test 3 ",
+    "Test 4  "
   ]
 },
 "webhookUrl":"WebHookUrl"
